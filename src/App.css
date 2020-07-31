@@ -1,0 +1,96 @@
+.wrapper{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #258ea6;
+}
+.form-wrapper{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+form{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1{
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+   Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+label{
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  color: #000;
+  font-weight: lighter;
+}
+input{
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border:1px solid #cfcfcf;
+}
+input::placeholder{
+font-size: 1.2rem;
+font-weight: lighter;
+color: #999;
+}
+input.error{
+  border: 1px solid red;
+}
+.errorMessage{
+  color:red;
+  font-size: 0.75em;
+  display:relative;
+}
+.firstName{
+  margin: 1%;
+}
+.lastName{
+  margin: 1%;
+}
+.firstName, .lastName, .email, .password{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.firstName, .lastName{
+  width:100%;
+}
+.email, .password{
+width: 100%;
+}
+.createAccount{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createAccount button{
+  width: 100%;
+  background-color:#14af4f ;
+  border-radius: 4px;
+  border: 1px solid  #14af4f ;
+  height: 20px;
+  cursor: pointer;
+}
+.createAccount button:hover{
+  color:#519e8a;
+ background-color: #fff;
+ border: 2px solid #519e8a;
+}
+.createAccount small{
+  color:#999;
+  font-weight: lighter;
+}
